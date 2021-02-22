@@ -1,0 +1,28 @@
+#maelsDivision{
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+#result{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+}
+#maelsDivision img{
+    width: 250px;
+    
+}
+#mealsInfo{
+    text-align: center;
+}
+
+#mealsInfo img{
+    width: 300px;
+    border-radius: 10px;
+}
+.firstDiv{
+    text-align: center;
+}
+.detailsArea li{
+    list-style: none;
+}
