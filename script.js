@@ -4,7 +4,7 @@ const clickHere = () => {
     fetch(url)
         .then((response) => response.json())
         .then((data) => showMeals(data.meals))
-        
+
 }
 
 const showMeals = foods => {
@@ -59,8 +59,8 @@ const mealsInformation = (info) => {
                     <p>${information.strInstructions}{</p>
         </div>
     `
-       
-    foodInfo.appendChild(divDetails)
+
+        foodInfo.appendChild(divDetails)
 
 
     });
